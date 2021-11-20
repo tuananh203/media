@@ -1,0 +1,25 @@
+- Xây dựng menu: Start game, Continue, New game, Load game, Store, bảng highscore
+- Trong Store: 
++ Thêm loại đạn
++ Rớt item
+- Thêm thanh máu 
+- Làm background động
+- Thêm các loại quái
+- Thêm boss
+- Thêm đạn của kẻ địch
+- Thêm hiệu ứng khi đạn trúng quái
+- Xử lý âm thanh nền
+- Xử lý âm thanh đạn
+* Chuyển phong cách code thành hướng đối tượng, thêm xử lý va chạm, thanh máu, tự bắn
+* Class: Plane(abtract), Player(kế thừa từ Plane), Enemy, MainMenu(Nam), Bullet(Chính).
+* Viết báo cáo bài tập lớn
+
+* 1 (thuộc tính object): thêm các loại quái(xuất hiện random hoặc theo bầy, được số điểm/vàng khác nhau khi tiêu diệt), thêm
+ đạn của kẻ địch, thêm boss(có hiệu ứng đạn, rơi item tương ứng khi chết... và đương nhiên phải to, rất to)
+- (hình ảnh, âm thanh): làm background động, xử lý âm thanh nền, xử lý âm thanh đạn, xử lý va chạm
+
+* 2 (giao diện + thuộc tính): Store:thêm các loại đạn, thêm hiệu ứng khi đạn trúng quái(nổ gây sát thương vùng, giật điện, đóng băng...), 
+nâng cấp (đạn vĩnh viễn, tăng dame, tăng máu..., hoặc làm các loại máy bay mới với các hiệu ứng riêng xong cho mua 1 lần luôn), thêm item
+(mua từ cửa hàng, mua lúc bắt đầu game và trước khi đánh boss)
+
+xây dựng menu, làm giao diện mua đồ trong game
